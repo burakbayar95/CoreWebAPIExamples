@@ -35,7 +35,8 @@ namespace APIOwerView
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            //middleware: httprequest'e yaptýrýlan iþler/ denetimler
+            //middleware sýrasý : pipeline
             app.UseHttpsRedirection();
 
             app.UseRouting();
