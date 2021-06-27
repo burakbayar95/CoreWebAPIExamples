@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\burak\\Desktop\\CoreWebAPIExamples\\IntroWebAPI\\IntroWebAPI\\IntroWebAPI.csproj": {}
+    "C:\\Users\\burak\\Desktop\\CoreWebAPIExamples\\APIOwerView\\APIOwerView\\APIOwerView.csproj": {}
   },
   "projects": {
-    "C:\\Users\\burak\\Desktop\\CoreWebAPIExamples\\IntroWebAPI\\IntroWebAPI\\IntroWebAPI.csproj": {
+    "C:\\Users\\burak\\Desktop\\CoreWebAPIExamples\\APIOwerView\\APIOwerView\\APIOwerView.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\burak\\Desktop\\CoreWebAPIExamples\\IntroWebAPI\\IntroWebAPI\\IntroWebAPI.csproj",
-        "projectName": "IntroWebAPI",
-        "projectPath": "C:\\Users\\burak\\Desktop\\CoreWebAPIExamples\\IntroWebAPI\\IntroWebAPI\\IntroWebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\burak\\Desktop\\CoreWebAPIExamples\\APIOwerView\\APIOwerView\\APIOwerView.csproj",
+        "projectName": "APIOwerView",
+        "projectPath": "C:\\Users\\burak\\Desktop\\CoreWebAPIExamples\\APIOwerView\\APIOwerView\\APIOwerView.csproj",
         "packagesPath": "C:\\Users\\burak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\burak\\Desktop\\CoreWebAPIExamples\\IntroWebAPI\\IntroWebAPI\\obj\\",
+        "outputPath": "C:\\Users\\burak\\Desktop\\CoreWebAPIExamples\\APIOwerView\\APIOwerView\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\burak\\AppData\\Roaming\\NuGet\\NuGet.Config",

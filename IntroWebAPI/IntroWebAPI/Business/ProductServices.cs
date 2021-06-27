@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IntroWebAPI.Business
 {
-    public class ProductServices
+    public class ProductServices  //productla alakalı işleri burada yapıyoruz
     {
         public List<ProductListResponseDTO> GetListResponseDTOs() //geriye döndüreceği tipte açtık List<ProductListResponseDTO>
         {
@@ -36,6 +36,15 @@ namespace IntroWebAPI.Business
 
 
             return dtoList;
+        }
+
+        public Product GetProductResponseDTO(int id)
+        {
+            ProductRepository repo = new ProductRepository();
+
+            var products = repo.GetAllProducts();
+
+           return products.FirstOrDefault(p => p.Id == id);
         }
     }
 }
