@@ -42,6 +42,8 @@ namespace APIOwerView.Controllers
             }
             return Ok(student);
             //return Ok();
+            
+
         }
 
         [HttpGet("city/{city}")]
