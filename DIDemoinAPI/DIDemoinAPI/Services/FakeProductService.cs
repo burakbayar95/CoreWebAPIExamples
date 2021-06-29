@@ -12,7 +12,7 @@ namespace DIDemoinAPI.Services
         {
             return new List<Product>
             {
-                new Product {Id=1, Name="A", Price=100 },
+                new Product {Id=1, Name="A", Price=100   },
                 new Product {Id=2, Name="B", Price=200 },
                 new Product {Id=3, Name="C", Price=300 }
             };

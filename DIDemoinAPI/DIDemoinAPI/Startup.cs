@@ -1,8 +1,10 @@
+using DIDemoinAPI.Data;
 using DIDemoinAPI.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -27,7 +29,8 @@ namespace DIDemoinAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddTransient<IProductService, FakeProductService>(); // IProductService isterse FakeProductService verecek
+            services.AddDbContext<DataDbContext>(opt => opt.UseSqlServer("Server=(localdb)\\MssqlLocalDb; Database=MiniDb; Integrated Security=yes"));
+            services.AddTransient<IProductService, ProductServices>(); // IProductService isterse FakeProductService verecek
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
